@@ -1,0 +1,93 @@
+.todo-list {
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.new-task {
+    margin-bottom: 50px;
+}
+
+#agregartarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#botonagregar {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#lista-tareas {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.caja1 {
+    margin: 0;
+    padding-right: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row ;
+    gap: 25px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.tarea-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.tarea-item > span {
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.tarea-item .tarea-texto {
+    flex: 1;
+    margin-right: 100px;
+}
+
+.tarea-item .controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tarea-item .controls .form-check-input {
+    margin-right: 10px;
+}
+
+.tarea-item .controls .btn {
+    padding: 5px 10px;
+}
